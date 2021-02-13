@@ -1,0 +1,23 @@
+.resume{
+    display: flex;
+    flex-direction: column;
+    padding-left: -300px;
+    
+}
+.resume__ed {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+.resume__sk{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+

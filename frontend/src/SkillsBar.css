@@ -1,0 +1,59 @@
+.skillsBar{
+box-sizing: border-box;
+margin: 10px;
+font-weight: 500;
+padding-bottom: 10px;
+padding-top: 10px;
+
+
+}
+
+.container{
+    width: 100%;
+    height: 25%;
+    background-color: #ddd;
+
+
+}
+
+.skills {
+    text-align: right;
+    color: white;
+}
+
+.py {
+    width: 60%;
+    background-color: black;
+}
+
+
+.js {
+    width: 40%;
+    background-color: black;
+}
+
+
+.rct {
+    width: 50%;
+    background-color: black;
+}
+
+.dj {
+    width: 55%;
+    background-color: black;
+}
+
+.html {
+    width: 60%;
+    background-color: black;
+}
+
+.css {
+    width: 50%;
+    background-color: black;
+}
+
+.dbm {
+    width: 60%;
+    background-color: black;
+}

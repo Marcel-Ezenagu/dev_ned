@@ -1,0 +1,39 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+height: 60%;    
+   background: #000000;
+    
+    
+}
+
+.about__bios {
+    margin: 0 0 30px 0;
+    width: 60%;
+    font-weight: 600;
+    color: #7A7A7A;
+}
+
+.about > img {
+    object-fit: cover;
+    max-width: 10vw;
+    max-height: 33vh;
+    flex: 0.2;
+    border: 10px;
+    border-radius: 15px;
+}
+
+.about__info {
+    flex:0.8;
+    padding-left: 30px; 
+    color: white;
+    padding-top: 20px; 
+}
+
+.about__bios {
+    padding-top: 20px;
+}
+
+
