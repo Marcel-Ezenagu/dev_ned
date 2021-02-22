@@ -1,10 +1,7 @@
 import React from 'react';
-import './Footer.css';
-import Container from 'react-bootstrap/Container';
 
 function Footer() {
     return (
-        <Container>
         <div className='footer'>
             <div className='footer__top'>
                 <a href='https://facebook.com/ezenagumarcel'>
@@ -21,8 +18,8 @@ function Footer() {
                    
             </div>
                  <p>  © 2020 A big s/o to the CP team - More Blessing !!! <br />· Marcel </p>
-            </div>
-        </Container>
+    </div>
+        
     )
 }
 

@@ -1,6 +1,8 @@
 import React from 'react'
 import About from './About';
 import './App.css'
+
+
 import Footer from './Footer';
 import Header from './Header';
 import Home from './Home';
@@ -9,11 +11,9 @@ import Works from './Works';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Contact from './Contact';
 
-import Container from 'react-bootstrap/Container';
 function App() {
   return (
 <div>
-    <Container fluid>
     <Router >
     
     <Header />
@@ -56,7 +56,7 @@ function App() {
 
     </Router>
          
-      </Container>
+     
   </div>
   )
 }

@@ -26,7 +26,7 @@ function Works() {
                     alt='firsdt'
                     />
                     <Carousel.Caption>
-                    <h4>{'#'}</h4>
+                    <h4>Amzon ck</h4>
                    
                     </Carousel.Caption>
                 </Carousel.Item>

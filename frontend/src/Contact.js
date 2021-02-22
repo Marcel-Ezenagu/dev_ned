@@ -53,7 +53,6 @@ function Contact() {
     };
     
     return (
-        <Container>
 
 <div className='contact-form-card'>
             <form method='POST'>
@@ -90,7 +89,6 @@ function Contact() {
 
         </div>
 
-        </Container>
     )
 }
 

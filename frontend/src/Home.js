@@ -1,27 +1,25 @@
-import { Carousel } from 'bootstrap';
 import React from 'react'
-import './Home.css';
-import { Jumbotron, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
-
-function Home() {
+import Ryped from "react-typed"
+import pager from "./images/bg 1.jpg"
+export default function Home() {
 
     return (
-    <div>
-           <Jumbotron as='div' fluid >
-        <h1>Marcel</h1>
-        <p>
-          This is a simple hero unit, a simple jumbotron-style component for calling
-          extra attention to featured content or information.
-        </p>
-        <p>
-          <Button variant="primary">Learn more</Button>
-        </p>
-      </Jumbotron>
-        
-    </div>
-        
+        <div className='home'>
+            <div className='home-info'>
+                <h1>I'm Marcel Ezenagu</h1>
+                <p>A Nigerian based Business Transformer.</p>
+                <Ryped
+                    className="typed-text"
+                    strings={["Web Design", "Web Development","SEO","Google Ads", "Facebook Ads SMM"  ]}
+                    typeSpeed={40}
+                    backSpeed={55}
+                    loop
+                />
+                
+            </div>
+        </div>
+
     )
 }
-
-export default Home
