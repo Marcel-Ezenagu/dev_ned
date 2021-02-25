@@ -169,6 +169,7 @@ transform: 1.2;
 .contact{
 position: relative;
 top: 5rem;  
+border: 0.45rem bold black;
 }
 .form-field{
   display: flex;

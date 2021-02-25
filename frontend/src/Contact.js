@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import emailjs from 'emailjs-com';
-import apiKeys from "./services/apikeys";
+import apiKeys from "./apikeys";
 
 function Contact() {
    
