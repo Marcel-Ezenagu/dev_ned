@@ -7,17 +7,18 @@ export default function Home() {
     return (
         <div className='home'>
             <div className='home-info'>
-                <h1>I'm Marcel Ezenagu</h1>
-                <p style={{fontWeight: "900"}}>A Nigerian based...</p>
+                <h2>I'm Marcel.</h2>
+                <p>An Entrepreneur and Business Transformer.</p>
+                <br/>
                 <Ryped
                     className="typed-text"
-                    strings={["Business Transformer","Web Designer", "Web Developer","SEO","Google Ads", "Facebook Ads SMM"  ]}
+                    strings={[" Software Developer","Web Designer"," SEO","Google Ads", " Facebook Ads SMM"  ]}
                     typeSpeed={40}
                     backSpeed={55}
                     loop
                 />
-                <div>
-                    <button style={{position: "relative", bottom: "20%"}} >Get In Touch</button>
+                <div >
+                  <Link to='/contact'> <button style={{  width: 'fit-content', borderRadius:"0.3rem"}} >Contact Me</button></Link> 
                 </div>
             </div>
         </div>

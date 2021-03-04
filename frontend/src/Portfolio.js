@@ -7,7 +7,7 @@ function Portfolio({img, title, brief, description, url}) {
             <h3>{title}</h3>
             <div className='portfolio'>
             <a href={url}>
-                    <img  src={img} alt='portfolio' />
+                    <img  src={img} alt={title} />
             </a>
             <div className='portfolio__info'> 
                 {/* <h3 className='portfolio__title'>{title}</h3> */}

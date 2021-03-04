@@ -1,6 +1,7 @@
 import React from 'react'
 import About from './About';
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import Footer from './Footer';
@@ -13,46 +14,44 @@ import Contact from './Contact';
 
 function App() {
   return (
-<div>
+<div  className='app'>
     <Router >
+
+    <div className='content-wrapper'>
     
-    <Header />
+          <Header />
+             
+          <Switch>
+                <Route path='/contact'>
 
-      
+                  <Contact />
+                </Route>
+
+                <Route path='/about'>
+
+                  <About />
+                </Route>
+
+                <Route path='/works'>
+                  <Works />
         
+                </Route>
+          
+                <Route path='/resume'>
+                  
+                <Resume />
+                </Route>
         
-        <div className='app'>
-            <Switch>
-              <Route path='/contact'>
 
-                <Contact />
-              </Route>
-
-              <Route path='/about'>
-
-                <About />
-              </Route>
-
-              <Route path='/works'>
-                <Works />
-      
-              </Route>
-        
-              <Route path='/resume'>
-                
-              <Resume />
-              </Route>
-      
-
-              <Route path='/'>
-                
-                <Home /> 
-              </Route>
-            </Switch>
+                <Route path='/'>
+                  
+                  <Home /> 
+                </Route>
+              </Switch>
       
         </div>     
       
-       {/* <Footer />         */}
+       <Footer />        
 
     </Router>
          

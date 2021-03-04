@@ -21,7 +21,7 @@ padding-bottom: 40px;
 }
 
 
-.portfolio > a > img: hover {
+.portfolio > a > img:hover {
 
     transform: scale(1.2)
 }

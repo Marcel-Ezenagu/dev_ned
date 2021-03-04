@@ -56,28 +56,29 @@ function Contact() {
         <div className='contact'>
             <div><h3 style={{color: "#061606e0"}}>Contact Me</h3></div>
             <form method='POST' onSubmit={sendMessage}>
+                
+                <div className='form-field'>
+                        <label>I'm interested in</label>
+                        <input name='subject' type='text' placeholder='Enter your subject of interest' value={subject} onChange={e => setSubject(e.target.value)}  required />
+
+                </div>
+
+                
 
                 <div className='form-field'>
-                    <label>Email</label>
+                    <label>My email is</label>
                     <input name='email' type='email' placeholder='Enter your email' value={email}  onChange={e => setEmail(e.target.value)}  required />
 
                 </div>
 
                 <div className='form-field'>
-                    <label>Name</label>
+                    <label>My name is</label>
                     <input name='name' type='text' placeholder='Enter your Name' value={name} onChange={e => setName(e.target.value)}  required />
 
                 </div>
 
                 <div className='form-field'>
-                    <label>Subject</label>
-                    <input name='subject' type='text' placeholder='Enter your suject of interest' value={subject} onChange={e => setSubject(e.target.value)}  required />
-
-                </div>
-
-                
-                <div className='form-field'>
-                    <label>Phone Number</label>
+                    <label>My phone number is</label>
                     <input name='phone' type='number' placeholder='Enter your Phone number' value={phone} onChange={e => setPhone(e.target.value)}  required />
 
                 </div>
@@ -85,8 +86,8 @@ function Contact() {
                
                 
                 <div className='form-field'>
-                    <label>Message</label>
-                    <textarea name='message' placeholder='Enter your message' value={message}  onChange={e => setMessage(e.target.value)} required />
+                    <label>Questions or Comments</label>
+                    <textarea name='message' placeholder='Enter your questions or comments' value={message}  onChange={e => setMessage(e.target.value)} required />
                 
 
                 </div >
@@ -94,10 +95,10 @@ function Contact() {
                
                 <button
                     type='submit'
-                    label='Send Message'
+                    label='Send'
                     
                     className='send-button'
-                    >Send Message</button>              
+                    >Send</button>              
 
             </form>
 
